@@ -21,7 +21,7 @@ export default function Home() {
 
   const handleCalculateFibonacci = () => {
     const result = fibonacci(Number(inputNumber));
-    console.log(result);
+    //mostrar isso em algum lugar
     // do something with the result
   };
 
@@ -78,6 +78,10 @@ export default function Home() {
               </Button>
             </DialogFooter>
           </Dialog>
+
+
+       <h4>Fibonacci {} </h4>
+
         </div>
       </div>
     </main>
