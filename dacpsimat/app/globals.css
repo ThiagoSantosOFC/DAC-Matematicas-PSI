@@ -30,7 +30,5 @@ html {
     @apply cursor-pointer
   }
 
-  button {
-    @apply rounded-xl uppercase bg-gradient-to-r from-[#69AB3D] to-[#AED36c] text-white
-  }
+
 }
