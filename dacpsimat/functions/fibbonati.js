@@ -1,18 +1,12 @@
 function fibonacci(n) {
-    if (n <= 1) {
-      return n;
-    }
-  
-    let prev = 0;
-    let curr = 1;
+    let fib = [0, 1];
   
     for (let i = 2; i <= n; i++) {
-      let next = prev + curr;
-      prev = curr;
-      curr = next;
+      let next = fib[i - 1] + fib[i - 2];
+      fib.push(next);
     }
   
-    return curr;
+    return fib;
 }
 
 export {
